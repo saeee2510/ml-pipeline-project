@@ -1,0 +1,12 @@
+[ 2024-06-14 15:34:31,383 ] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[ 2024-06-14 15:34:31,383 ] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-06-14 15:34:31,388 ] 97 werkzeug - INFO -  * Restarting with stat
+[ 2024-06-14 15:34:31,527 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2024-06-14 15:34:31,536 ] 97 werkzeug - INFO -  * Debugger PIN: 101-121-073
+[ 2024-06-14 15:34:36,665 ] 15 root - INFO - Error occured in python script name [/Users/saee2510/Desktop/projects/ml-pipeline-project/app.py] line number [11] erro message [We are testing our custom file]
+[ 2024-06-14 15:34:36,666 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2024 15:34:36] "GET / HTTP/1.1" 200 -
+[ 2024-06-14 15:34:37,512 ] 15 root - INFO - Error occured in python script name [/Users/saee2510/Desktop/projects/ml-pipeline-project/app.py] line number [11] erro message [We are testing our custom file]
+[ 2024-06-14 15:34:37,512 ] 97 werkzeug - INFO - 127.0.0.1 - - [14/Jun/2024 15:34:37] "GET / HTTP/1.1" 200 -
+[ 2024-06-14 15:34:43,661 ] 97 werkzeug - INFO -  * Detected change in '/Users/saee2510/Desktop/projects/ml-pipeline-project/app.py', reloading
+[ 2024-06-14 15:34:43,697 ] 97 werkzeug - INFO -  * Restarting with stat
