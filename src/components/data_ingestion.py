@@ -5,8 +5,8 @@ from src.logger import logging
 from src.exception import CustmeException
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
-# from src.component.data_transfromation import DataTransformation
-# from src.component.modrl_trainer import ModelTrainer
+from src.components.data_transformation import DataTransformation
+# from src.components.model_trainer import ModelTrainer
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '/Users/saee2510/Desktop/projects/ml-pipeline-project/src')))
 
 @dataclass
@@ -52,8 +52,8 @@ if __name__ =="__main__":
     obj = DataIngestion()
     treain_data_path , test_data_path = obj.inititate_data_ingestion()
 
-    # data_transformation = DataTransformation()
-    # train_arr, test_arr, _ = data_transformation.inititate_data_transformation(treain_data_path , test_data_path)
+    data_transformation = DataTransformation()
+    train_arr, test_arr, _ = data_transformation.inititate_data_transformation(treain_data_path , test_data_path)
 
     # modeltrainer = ModelTrainer()
     # print(modeltrainer.inititate_model_trainer(train_arr, test_arr))
